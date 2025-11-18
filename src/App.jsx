@@ -46,7 +46,7 @@ function App() {
   );
 
   const handleAddOrEdit = () => {
-    if (task.trim() === '') return setFillTask('Enter valid data!');
+    if (task.trim() === '') return setFillTask('Enter validss data!');
 
     if (editIndex !== null) {
       const updatedTasks = [...tasks];
